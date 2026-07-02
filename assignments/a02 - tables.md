@@ -1,6 +1,4 @@
-A **Book Catalog** is an excellent assignment because it's simple, professional, and can later be reused for CSS, Bootstrap, JavaScript, and React lessons.
-
-# 📝 Assignment: Book Catalog
+# 📝 Assignment (Tables): Book Catalog
 
 **Topic:** HTML Tables
 **Duration:** 30 Minutes
