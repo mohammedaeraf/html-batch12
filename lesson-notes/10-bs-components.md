@@ -1,11 +1,10 @@
-# Lesson Notes – Bootstrap Components (Alerts, Cards & List Groups)
+# Lesson Notes – Bootstrap Components (Alerts & List Groups)
 
 ## Learning Objectives
 
 By the end of this lesson, students will be able to:
 
 * Use Bootstrap Alerts to display messages.
-* Create attractive Cards.
 * Organize information using List Groups.
 * Combine Bootstrap components to build simple webpages.
 
@@ -29,7 +28,6 @@ Examples include:
 Today we will learn:
 
 * Alerts
-* Cards
 * List Groups
 
 ---
@@ -92,107 +90,7 @@ Alerts are used to display important messages to the user.
 
 ---
 
-# 3. Bootstrap Card
-
-Cards are used to display information in a neat rectangular box.
-
-Cards can contain:
-
-* Images
-* Title
-* Text
-* Buttons
-
----
-
-## Basic Card
-
-```html
-<div class="card">
-
-    <div class="card-body">
-
-        <h5 class="card-title">My Card</h5>
-
-        <p class="card-text">
-            This is a Bootstrap card.
-        </p>
-
-    </div>
-
-</div>
-```
-
----
-
-## Card with Image
-
-```html
-<div class="card" style="width: 20rem;">
-
-    <img src="images/laptop.jpg"
-         class="card-img-top"
-         alt="Laptop">
-
-    <div class="card-body">
-
-        <h5 class="card-title">
-            Laptop
-        </h5>
-
-        <p class="card-text">
-            A powerful laptop for programming,
-            designing and gaming.
-        </p>
-
-        <a href="#" class="btn btn-primary">
-            Learn More
-        </a>
-
-    </div>
-
-</div>
-```
-
----
-
-## Card Example – Mobile Phone
-
-```html
-<div class="container mt-5">
-
-<div class="card shadow" style="width:22rem;">
-
-<img src="images/mobile.jpg"
-     class="card-img-top"
-     alt="Mobile">
-
-<div class="card-body">
-
-<h4 class="card-title">
-Samsung Galaxy
-</h4>
-
-<p class="card-text">
-A modern smartphone with
-excellent camera quality,
-fast processor and long battery life.
-</p>
-
-<button class="btn btn-success">
-Buy Now
-</button>
-
-</div>
-
-</div>
-
-</div>
-```
-
----
-
-# 4. Bootstrap List Group
+# 3. Bootstrap List Group
 
 List Groups display related items in a list.
 
@@ -343,37 +241,13 @@ Bootstrap Components Demo
 Welcome to Bootstrap Components!
 </div>
 
-<!-- Card -->
-
-<div class="card shadow mb-5" style="width:22rem;">
-
-<img src="images/laptop.jpg"
-class="card-img-top"
-alt="Laptop">
-
-<div class="card-body">
-
-<h4 class="card-title">
-Laptop
-</h4>
-
-<p class="card-text">
-A high-performance laptop suitable for coding,
-designing and office work.
-</p>
-
-<a href="#"
-class="btn btn-primary">
-View Details
-</a>
-
-</div>
-
+<div class="alert alert-info">
+Today's lesson covers Bootstrap Alerts and List Groups.
 </div>
 
 <!-- List Group -->
 
-<h3>Programming Languages</h3>
+<h3 class="mt-4">Programming Languages</h3>
 
 <ul class="list-group">
 
@@ -413,15 +287,8 @@ JavaScript
 | Component           | Purpose                                 |
 | ------------------- | --------------------------------------- |
 | `alert`             | Displays important messages             |
-| `card`              | Displays information inside a box       |
-| `card-body`         | Holds card content                      |
-| `card-title`        | Card heading                            |
-| `card-text`         | Card description                        |
-| `card-img-top`      | Image at the top of the card            |
-| `btn`               | Creates a Bootstrap button              |
 | `list-group`        | Creates a styled list                   |
 | `list-group-item`   | Individual list item                    |
 | `active`            | Highlights the selected list item       |
 | `list-group-item-*` | Applies contextual colors to list items |
 
-    
