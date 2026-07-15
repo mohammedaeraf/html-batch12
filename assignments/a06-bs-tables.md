@@ -40,9 +40,7 @@ Apply suitable Bootstrap classes to make it:
 
 ---
 
-## 3. Create a Responsive Table
-
-Wrap your table inside a Bootstrap **`table-responsive`** container.
+## 3. Create a Table
 
 Create a table with the following columns:
 
@@ -85,35 +83,6 @@ You may use the following sample data or create your own.
 
 ---
 
-## 6. Use Bootstrap Utility Classes
-
-Apply appropriate Bootstrap spacing classes to improve the appearance of the page.
-
-Suggested classes:
-
-### Typography
-
-* `text-center`
-* `text-primary`
-* `display-4`
-* `fw-bold`
-
-### Table
-
-* `table`
-* `table-striped`
-* `table-bordered`
-* `table-hover`
-* `table-dark`
-
-### Layout
-
-* `container`
-* `table-responsive`
-* `my-5`
-
----
-
 # Expected Layout
 
 ```text
@@ -132,39 +101,3 @@ Suggested classes:
 | EMP106      | Neha Kapoor   | IT         | Software Engineer| 7 Years    | ₹78,000           |
 +-----------------------------------------------------------------------------------------------+
 ```
-
----
-
-# Bonus Challenge ⭐
-
-Complete **any two** of the following:
-
-1. Add a **Status** column showing:
-
-   * Active
-   * On Leave
-   * Probation
-
-2. Use a different Bootstrap color for the table header such as:
-
-   * `table-primary`
-   * `table-success`
-   * `table-info`
-
-3. Add **two more employee records**.
-
-4. Apply the `table-sm` class to create a compact version of the table and compare it with the normal table.
-
----
-
-# Submission Guidelines
-
-* Save the file as **`employee-report.html`**.
-* Test the webpage in a browser before submitting.
-* Use **Bootstrap classes only** for styling. Do **not** use custom CSS.
-
----
-
-## Learning Outcome
-
-By completing this assignment, you will learn how to create responsive and visually appealing **Bootstrap Tables** using table styling classes, responsive containers, and Bootstrap utility classes to present structured data effectively.
