@@ -25,19 +25,21 @@
         font-family: "Poppins", sans-serif;
       }
       .card-img-top {
-        height: 220px;
         object-fit: cover;
       }
     </style>
   </head>
   <body>
     <div class="container my-5">
-      <h1 class="text-center text-primary display-4 fw-bold" id="home">
-        <i class="bi bi-mortarboard-fill"></i> Future Leaders Academy
-      </h1>
+      <!-- Header with Tag Line -->
+      <div class="text-center">
+        <h1 class="text-primary display-4 fw-bold" id="home">
+          <i class="bi bi-mortarboard-fill"></i> Future Leaders Academy
+        </h1>
+        <p class="text-secondary mb-5">Learn. Build. Succeed.</p>
+      </div>
 
-      <p class="text-center text-secondary mb-5">Learn. Build. Succeed.</p>
-
+      <!-- Navigation Menu -->
       <div class="text-center mb-5">
         <a href="#home" class="btn btn-primary me-2 mb-2">Home</a>
         <a href="#courses" class="btn btn-success me-2 mb-2">Courses</a>
@@ -45,20 +47,24 @@
         <a href="#contact" class="btn btn-danger mb-2">Contact</a>
       </div>
 
+      <!-- Announcement Alert -->
       <div class="alert alert-success text-center mb-5">
         <i class="bi bi-megaphone-fill"></i>
         <strong>Admissions Open!</strong> Enrol now for our new batches.
       </div>
 
+      <!-- Courses Section -->
       <section id="courses">
         <h2 class="text-center text-primary mb-4">Popular Courses</h2>
 
+        <!-- Course Cards -->
         <div class="row g-4">
+          <!-- Web Design Card -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card shadow rounded h-100">
               <img
                 src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
-                class="card-img-top"
+                class="card-img-top h-50"
                 alt="Web Design"
               />
               <div class="card-body">
@@ -67,18 +73,21 @@
                 </h4>
                 <p class="card-text">
                   Learn HTML, CSS and Bootstrap to build responsive and
-                  attractive websites from scratch.
+                  attractive websites from scratch. Learn HTML, CSS and
+                  Bootstrap to build responsive and attractive websites from
+                  scratch.
                 </p>
-                <a href="#" class="btn btn-primary">Learn More</a>
+                <a href="#" class="btn btn-primary w-100">Learn More</a>
               </div>
             </div>
           </div>
 
+          <!-- Python Card -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card shadow rounded h-100">
               <img
                 src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=900"
-                class="card-img-top"
+                class="card-img-top h-50"
                 alt="Python"
               />
               <div class="card-body">
@@ -88,18 +97,20 @@
                 </h4>
                 <p class="card-text">
                   Master Python programming with practical examples, projects
-                  and problem-solving exercises.
+                  and problem-solving exercises. Master Python programming with
+                  practical examples, projects and problem-solving exercises.
                 </p>
-                <a href="#" class="btn btn-success">Learn More</a>
+                <a href="#" class="btn btn-success w-100">Learn More</a>
               </div>
             </div>
           </div>
 
+          <!-- AWS Card -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card shadow rounded h-100">
               <img
                 src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900"
-                class="card-img-top"
+                class="card-img-top h-50"
                 alt="AWS"
               />
               <div class="card-body">
@@ -108,17 +119,20 @@
                 </h4>
                 <p class="card-text">
                   Learn cloud computing concepts and AWS services with hands-on
-                  demonstrations.
+                  demonstrations. Learn cloud computing concepts and AWS
+                  services with hands-on demonstrations. Learn cloud computing
                 </p>
-                <a href="#" class="btn btn-warning">Learn More</a>
+                <a href="#" class="btn btn-warning w-100">Learn More</a>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- About Section-->
       <section id="about" class="mt-5">
         <h2 class="text-center text-primary mb-4">About Us</h2>
+
         <div class="card shadow rounded">
           <div class="row g-0">
             <div class="col-md-4">
@@ -129,6 +143,7 @@
                 alt="Academy"
               />
             </div>
+
             <div class="col-md-8">
               <div class="card-body">
                 <h4 class="card-title">
@@ -156,6 +171,7 @@
         </div>
       </section>
 
+      <!-- Contact Section -->
       <section id="contact" class="mt-5">
         <h2 class="text-center text-primary mb-4">Contact Us</h2>
         <div class="card shadow rounded">
@@ -178,12 +194,14 @@
         </div>
       </section>
 
+      <!-- Back to Top -->
       <div class="text-center mt-5">
         <a href="#home" class="btn btn-dark">
           <i class="bi bi-arrow-up-circle-fill"></i> Back to Top
         </a>
       </div>
 
+      <!-- Footer -->
       <footer class="text-center text-secondary mt-5">
         <hr />
         <p>&copy; 2026 Future Leaders Academy. All Rights Reserved.</p>
