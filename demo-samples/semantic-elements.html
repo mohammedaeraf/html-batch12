@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTML Semantic Elements</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      main {
+        min-height: 500px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="bg-primary text-white text-center p-4">
+      <h1>Future Leaders Academy</h1>
+
+      <p>Learn • Build • Succeed</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-dark text-center p-3">
+      <a href="#" class="btn btn-outline-light me-2">Home</a>
+
+      <a href="#" class="btn btn-outline-light me-2">Courses</a>
+
+      <a href="#" class="btn btn-outline-light me-2">About</a>
+
+      <a href="#" class="btn btn-outline-light">Contact</a>
+    </nav>
+
+    <main class="container my-5">
+      <!-- Section -->
+
+      <section>
+        <h2 class="text-primary mb-4">Popular Courses</h2>
+
+        <div class="row g-4">
+          <!-- Article -->
+
+          <article class="col-md-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h4>HTML & CSS</h4>
+
+                <p>
+                  Learn to build attractive and responsive websites using HTML
+                  and CSS.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h4>Python</h4>
+
+                <p>
+                  Learn Python programming from basic to intermediate level with
+                  practical examples.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-md-4">
+            <div class="card shadow">
+              <div class="card-body">
+                <h4>AWS Fundamentals</h4>
+
+                <p>
+                  Understand cloud computing concepts and AWS services for
+                  beginners.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Aside -->
+
+      <aside class="alert alert-info mt-5">
+        <h4>Upcoming Batch</h4>
+
+        <p>Admissions are now open for the next Web Design batch.</p>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+      <p>© 2026 Future Leaders Academy. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
