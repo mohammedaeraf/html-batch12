@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Intro</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style></style>
+    <script>
+      function showBox() {
+        // show the course info box
+        document.getElementById("course-info-box").style.display = "block";
+        document.getElementById("section-title").style.color = "orangered";
+        document.getElementById("section-text").style.textDecoration =
+          "underline";
+      }
+
+      function hideBox() {
+        // show the course info box
+        document.getElementById("course-info-box").style.display = "none";
+        document.getElementById("section-title").style.color = "black";
+        document.getElementById("section-text").style.textDecoration = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center text-primary fw-bold mb-4">JavaScript Intro</h1>
+      <div class="card shadow">
+        <div class="card-body">
+          <h3 class="card-title" id="section-title">Web Design Course</h3>
+          <p class="card-text" id="section-text">
+            Click the buttons below to show or hide the course details.
+          </p>
+          <div class="mb-3">
+            <button class="btn btn-success me-3" onclick="showBox()">
+              Show Details
+            </button>
+            <button class="btn btn-danger me-3" onclick="hideBox()">
+              Hide Details
+            </button>
+          </div>
+
+          <div
+            id="course-info-box"
+            class="alert alert-info"
+            style="display: none"
+          >
+            <h4>Course Information</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Bootstrap 5</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
