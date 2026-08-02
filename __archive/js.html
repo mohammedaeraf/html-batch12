@@ -5,7 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>JavaScript Demo</title>
+    <title>Read More Demo</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -13,48 +13,16 @@
     />
   </head>
 
-  <body>
-    <div class="container my-5">
-      <h1 class="text-center text-primary mb-4">JavaScript Demo</h1>
+  <body id="page">
+    <div id="msg" class="alert alert-warning">Admissions Closing Soon!</div>
 
-      <div class="card shadow">
-        <div class="card-body">
-          <h3 class="card-title">Web Design Course</h3>
-
-          <p>Click the buttons below to show or hide the course details.</p>
-
-          <button class="btn btn-success me-2" onclick="showDetails()">
-            Show Details
-          </button>
-
-          <button class="btn btn-danger" onclick="hideDetails()">
-            Hide Details
-          </button>
-
-          <div id="courseDetails" class="alert alert-info mt-4 d-none">
-            <h5>Course Information</h5>
-
-            <ul>
-              <li>HTML5</li>
-
-              <li>CSS3</li>
-
-              <li>Bootstrap</li>
-
-              <li>JavaScript</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <button class="btn btn-success" onclick="successMessage()">Enroll</button>
 
     <script>
-      function showDetails() {
-        document.getElementById("courseDetails").classList.remove("d-none");
-      }
-
-      function hideDetails() {
-        document.getElementById("courseDetails").classList.add("d-none");
+      function successMessage() {
+        // document.getElementById("msg").className = "alert alert-success";
+        document.getElementById("msg").classList.remove("alert-warning");
+        document.getElementById("msg").classList.add("alert-success");
       }
     </script>
   </body>
